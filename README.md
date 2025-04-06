@@ -24,7 +24,7 @@ This application helps you segment fitness videos from YouTube into individual e
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/fitness-video-segmentation.git
+git clone https://github.com/cheedli/Fitness_Videos_Segmentation.git
 cd fitness-video-segmentation
 ```
 
@@ -44,20 +44,6 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-If you don't have a requirements.txt file, create one with the following content:
-
-```
-flask
-opencv-python
-mediapipe
-pytube
-numpy
-requests
-flask_cors
-minio
-yt-dlp
-imageio
-```
 
 ### 4. Set up MinIO
 
@@ -208,10 +194,4 @@ The application uses the following directories:
 - `templates/` - HTML templates for the web interface
 - `static/` - Static assets for the web interface
 
-## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
